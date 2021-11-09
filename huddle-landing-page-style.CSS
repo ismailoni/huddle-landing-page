@@ -1,0 +1,65 @@
+*{
+    margin-left: 10px;
+}
+@font-face {
+    font-family: open sans;
+    src: url(./OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body {
+    background: url(./images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    font-family: Open sans;
+    font-weight: 400;
+}
+.logo {
+    margin-bottom: 50px;
+}
+.text {
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    font-family: spartan;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF0FF;
+}
+.dis {
+    margin-right: 50px;
+}
+h3 {
+    font-family: poppins;
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: hsl(257, 95%, 75%);   
+}
+.signup-link {
+    position: absolute;
+    background-color: white;
+    border: 5px solid #FFF0FF;
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.signup-link:hover {
+    position: absolute;
+    background-color: hsl(300, 69%, 71%);
+    border: 5px solid hsl(300, 69%, 71%);
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.signup-link:hover a {
+    color: white;
+    text-decoration: none;
+}
+.icon {
+    color: white;
+}
